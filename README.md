@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Python 工具箱 - PyTools</h1>
+<h1>Python 工具箱 - 涟</h1>
 
 ![GitHub stars](https://img.shields.io/github/stars/HelloEasytong/PyTools?style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/HelloEasytong/PyTools?style=flat)
@@ -32,7 +32,7 @@
 > #### 安装包安装（推荐）
 
 1. 下载安装包
-3. 安装完成后，即可在开始菜单找到PyTools。
+3. 安装完成后，即可在开始菜单找到涟。
 
 <br/>
 
@@ -40,14 +40,14 @@
 
 1. 假设你的计算机已经安装了 Python 环境，且版本 >=3.7。
 2. `git clone` 克隆源代码到你的计算机(需要计算机上已经安装了 git)或下载源代码包 Source code.zip 解压。
-3. 在 Awespykit 目录内打开 PowerShell 或 Cmd。
-4. 使用以下命令安装 Awespykit 的依赖，有多个 Python 环境的请自行选择环境：
+3. 在 Lian 目录内打开 PowerShell 或 Cmd。
+4. 使用以下命令安装 涟 的依赖，有多个 Python 环境的请自行选择环境：
    ```cmd
    pip install -r requirements.txt
    ```
 5. 找到 runpykit.py 运行。如果不想显示控制台，可以将 runpykit.py 重命名为 runpykit.pyw。
-6. *注意*：由于更改了项目目录结构，使用 Pycharm 的同学，Pycharm 打开 Awespykit 目录后，请右键 Awespykit
-   -> src -> awespykit 目录，选择菜单末尾的 `将目录标记为->源代码根目录` 把 `awespykit`
+6. *注意*：由于更改了项目目录结构，使用 Pycharm 的同学，Pycharm 打开 Awespykit 目录后，请右键 Lian
+   -> src -> lian 目录，选择菜单末尾的 `将目录标记为->源代码根目录` 把 `Lian`
    目录标记为源码根目录，否则影响编程体验。
 
 <br />
@@ -57,19 +57,13 @@
 1. 假设你的计算机已经安装了 Python 环境，且版本 >=3.7（如果不符合要求则不能使用这个方法）。
 2. 使用以下命令安装开发版（可能需要你的计算机上已经安装了 git）：
    ```cmd
-   pip install git+https://github.com/HelloEasytong/PyTools.git@main
+   pip install git+https://github.com/HelloEasytong/lian.git@main
    ```
-注意：开发版可能含有许多 BUG，无法保证程序一定能正常运行，也无法保证所有功能都正常。
+注意：公测版可能含有许多 BUG，无法保证程序一定能正常运行，也无法保证所有功能都正常。
 
 <br />
 
 ## 程序截图
-
-> ### 工具箱启动窗口
-
-![启动窗口](img/MainEntrance.png)
-
-<br/>
 
 > ### 包管理器：封装了 pip 命令
 
@@ -80,7 +74,7 @@
 - 支持批量安装模块、按版本号安装等
 - 支持检查更新、批量卸载、批量升级(不了解各包的互相依赖则请慎用批量功能)
 
-![包管理器](img/PackageManager.png)
+![包管理器]
 
 <br/>
 
@@ -91,7 +85,7 @@
 - 支持一键在项目下创建 venv 虚拟环境
 - 支持项目所使用的 Python 环境的检查，检查出未安装的模块可一键安装
 
-![程序打包工具](img/PyinstallerTool.png)
+![程序打包工具]
 
 <br/>
 
@@ -100,8 +94,7 @@
 - 使用 pip 时网络不佳，用此工具一键切换 pip 所使用的镜像源
 - 支持保存你自己常用的镜像源地址
 
-![镜像源设置工具](img/IndexUrlTool.png)
-
+![镜像源设置工具]
 <br/>
 
 > ### 模块安装包下载器：封装了 pip 命令
@@ -110,7 +103,7 @@
 - 支持同时下载要下载的包/库/模块的依赖
 - 支持从 requirement.txt 批量读取并一键下载
 
-![模块安装包下载器](img/PackageDownloader.png)
+![模块安装包下载器]
 
 <br/>
 
